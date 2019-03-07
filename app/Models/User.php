@@ -50,15 +50,26 @@ class User extends Authenticatable implements MustVerifyEmailContract
         'password', 'remember_token',
     ];
 
-    public function topics()
+
+    public function markAsRead()
     {
-        return $this->hasMany(Topic::class);
+        $this->notification_count = 0;
+        $this->save();
+        $this->unreadNotifications->markAsRead();
     }
+
 
     public function isAuthorOf($model)
     {
         return $this->id == $model->user_id;
     }
+
+
+    public function topics()
+    {
+        return $this->hasMany(Topic::class);
+    }
+
 
     public function replies()
     {
