@@ -1,4 +1,4 @@
-VAÇ<?php
+<?php
 
 return [
 
