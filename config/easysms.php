@@ -25,17 +25,3 @@ return [
         ],
     ],
 ];
-
-/**
-$sms = app('easysms');
-try {
-    $sms->send(15711390091, [
-                'template' => 294095,
-                'data'=>['1'=>'1233','2'=>2],
-                'sign_name' => []
-    ]);
-} catch (\Overtrue\EasySms\Exceptions\NoGatewayAvailableException $exception) {
-    $message = $exception->getException('qcloud')->getMessage();
-    dd($message);
-}
- * **/
