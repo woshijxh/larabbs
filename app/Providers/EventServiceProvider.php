@@ -21,6 +21,10 @@ class EventServiceProvider extends ServiceProvider
         \Illuminate\Auth\Events\Verified::class => [
             \App\Listeners\EmailVerified::class,
         ],
+        \SocialiteProviders\Manager\SocialiteWasCalled::class => [
+            // add your listeners (aka providers) here
+            'SocialiteProviders\Weixin\WeixinExtendSocialite@handle'
+        ],
     ];
 
     /**
@@ -35,3 +39,23 @@ class EventServiceProvider extends ServiceProvider
         //
     }
 }
+
+/**
+ *
+ *
+https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx788d3b04a4d76176&redirect_uri=http://larabbs.test&response_type=code&scope=snsapi_userinfo&state=STATE#wechat_redirect
+ *
+ *
+$accessToken = '19__xUzasEMAFy0SeE73a2zbiXT-sb-PKPhwYMzxJDX2ATn7xfrO_xEubMKVcVFWl-FMTlbpkRiu-TmzXI1IRy4Jw';
+$openID = 'omP_t5-fy3WmtvzDDInEpr4Za5a8';
+$driver = Socialite::driver('weixin');
+$driver->setOpenId($openID);
+$oauthUser = $driver->userFromToken($accessToken);'
+
+$code = '021gGRFi2rsRCB0qZBFi2lV2Gi2gGRF3';
+$driver = Socialite::driver('weixin');
+$response = $driver->getAccessTokenResponse($code);
+$driver->setOpenId($response['openid']);
+$oauthUser = $driver->userFromToken($response['access_token']);
+ *
+ */
