@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3e7035e-f15f-4b59-bf64-37ef2b6543bf" name="默认更改列表" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/larabbs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/larabbs.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/UsersController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/Api/UserRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/Api/UserRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,43 +23,40 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/api.php">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/ImagesController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="32" column="52" lean-forward="true" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Transformers/UserTransformer.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-              <folding>
-                <element signature="e#36#56#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="168">
+              <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/UsersController.php">
+        <entry file="file://$PROJECT_DIR$/routes/api.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="13" column="62" lean-forward="true" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
-              <folding>
-                <element signature="e#44#64#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="552">
+              <caret line="44" column="2" lean-forward="true" selection-start-line="44" selection-start-column="2" selection-end-line="44" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Requests/Api/AuthorizationRequest.php">
+        <entry file="file://$PROJECT_DIR$/app/Http/Requests/Api/UserRequest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+            <state relative-caret-position="504">
+              <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/UsersController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1111">
+              <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+              <folding>
+                <element signature="e#44#64#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -87,6 +89,9 @@
       <find>fromUser</find>
       <find>news_cb</find>
       <find>authenticate</find>
+      <find>head</find>
+      <find>一级</find>
+      <find>img</find>
     </findStrings>
     <replaceStrings>
       <replace>App\Models\User</replace>
@@ -103,43 +108,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/Observers/UserObserver.php" />
-        <option value="$PROJECT_DIR$/.env.example" />
-        <option value="$PROJECT_DIR$/config/debugbar.php" />
-        <option value="$PROJECT_DIR$/app/Providers/EasySmsServiceProvider.php" />
-        <option value="$PROJECT_DIR$/config/app.php" />
-        <option value="$USER_HOME$/Downloads/最终版程序+数据库/data/conf/database.php" />
-        <option value="$USER_HOME$/Downloads/最终版程序+数据库/nginx.conf" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_03_14_170431_add_phone_to_users_table.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Api/Controller.php" />
-        <option value="$PROJECT_DIR$/config/easysms.php" />
-        <option value="$PROJECT_DIR$/app/Http/Requests/Api/UserRequest.php" />
-        <option value="$PROJECT_DIR$/app/Http/Requests/Api/CaptchaRequest.php" />
-        <option value="$PROJECT_DIR$/app/Http/Requests/Api/VerificationCodeRequest.php" />
-        <option value="$PROJECT_DIR$/storage/framework/cache/data/85/5f/855f92484c8c414d36c1b25cb24876e30229cbbf" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Api/CaptchasController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Api/VerificationCodesController.php" />
-        <option value="$PROJECT_DIR$/config/services.php" />
-        <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_03_15_175653_add_weixin_openid_to_users_table.php" />
-        <option value="$PROJECT_DIR$/app/Http/Requests/Api/SocialAuthorizationRequest.php" />
-        <option value="/private/var/folders/2j/2mx3v0814zqgq0sjft2ss7nh0000gn/T/fz3temp-2/heads.php" />
-        <option value="/private/var/folders/2j/2mx3v0814zqgq0sjft2ss7nh0000gn/T/fz3temp-2/header.php" />
-        <option value="/private/var/folders/2j/2mx3v0814zqgq0sjft2ss7nh0000gn/T/fz3temp-2/we1.php" />
-        <option value="$USER_HOME$/Downloads/welcome.php" />
-        <option value="/private/var/folders/2j/2mx3v0814zqgq0sjft2ss7nh0000gn/T/fz3temp-2/config.php" />
-        <option value="/private/var/folders/2j/2mx3v0814zqgq0sjft2ss7nh0000gn/T/fz3temp-2/welcome 2.php" />
-        <option value="/private/var/folders/2j/2mx3v0814zqgq0sjft2ss7nh0000gn/T/fz3temp-2/main.css" />
-        <option value="/private/var/folders/2j/2mx3v0814zqgq0sjft2ss7nh0000gn/T/fz3temp-2/welcome.php" />
-        <option value="/private/var/folders/2j/2mx3v0814zqgq0sjft2ss7nh0000gn/T/fz3temp-2/artists.php" />
-        <option value="/private/var/folders/2j/2mx3v0814zqgq0sjft2ss7nh0000gn/T/fz3temp-2/news.php" />
-        <option value="$USER_HOME$/Downloads/huayu/index.html" />
-        <option value="/private/var/folders/2j/2mx3v0814zqgq0sjft2ss7nh0000gn/T/fz3temp-2/newmain.css" />
         <option value="$USER_HOME$/Downloads/huayu 2/news.html" />
-        <option value="/private/var/folders/2j/2mx3v0814zqgq0sjft2ss7nh0000gn/T/fz3temp-2/artists 2.php" />
         <option value="/private/var/folders/2j/2mx3v0814zqgq0sjft2ss7nh0000gn/T/fz3temp-2/hot_spots.php" />
-        <option value="/private/var/folders/2j/2mx3v0814zqgq0sjft2ss7nh0000gn/T/fz3temp-2/headers.php" />
         <option value="/private/var/folders/2j/2mx3v0814zqgq0sjft2ss7nh0000gn/T/fz3temp-2/footers.php" />
         <option value="/private/var/folders/2j/2mx3v0814zqgq0sjft2ss7nh0000gn/T/fz3temp-2/news.css" />
         <option value="/Applications/MxSrvs/www/www.fz.com/index.php" />
@@ -151,9 +121,44 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/Api/AuthorizationsController.php" />
         <option value="$PROJECT_DIR$/app/Console/Commands/GenerateToken.php" />
         <option value="/Applications/MxSrvs/www/www.fz.com/e/data/tmp/dt_temptext1.php" />
-        <option value="$PROJECT_DIR$/routes/api.php" />
         <option value="$PROJECT_DIR$/app/Transformers/UserTransformer.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_03_21_102030_create_images_table.php" />
+        <option value="/private/var/folders/2j/2mx3v0814zqgq0sjft2ss7nh0000gn/T/fz3temp-2/equipment 2.php" />
+        <option value="/private/var/folders/2j/2mx3v0814zqgq0sjft2ss7nh0000gn/T/fz3temp-2/info 2.php" />
+        <option value="/private/var/folders/2j/2mx3v0814zqgq0sjft2ss7nh0000gn/T/fz3temp-2/header 2.php" />
+        <option value="/private/var/folders/2j/2mx3v0814zqgq0sjft2ss7nh0000gn/T/fz3temp-2/main 2.css" />
+        <option value="/private/var/folders/2j/2mx3v0814zqgq0sjft2ss7nh0000gn/T/fz3temp-2/footers 2.php" />
+        <option value="$USER_HOME$/Library/Application Support/Yummy FTP/Remote Edits/106.12.202.90 Edits/headers.php/headers.php" />
+        <option value="/private/var/folders/2j/2mx3v0814zqgq0sjft2ss7nh0000gn/T/fz3temp-2/headers 2.php" />
+        <option value="/private/var/folders/2j/2mx3v0814zqgq0sjft2ss7nh0000gn/T/fz3temp-2/welcome 4.php" />
+        <option value="/private/var/folders/2j/2mx3v0814zqgq0sjft2ss7nh0000gn/T/fz3temp-2/header 3.php" />
+        <option value="/private/var/folders/2j/2mx3v0814zqgq0sjft2ss7nh0000gn/T/fz3temp-2/footer 2.php" />
+        <option value="$PROJECT_DIR$/app/Models/Image.php" />
+        <option value="$USER_HOME$/Library/Application Support/Yummy FTP/Remote Edits/106.12.202.90 Edits/config.php/config.php" />
+        <option value="$USER_HOME$/Library/Application Support/Yummy FTP/Remote Edits/106.12.202.90 Edits/head.php/head.php" />
+        <option value="$USER_HOME$/Library/Application Support/Yummy FTP/Remote Edits/106.12.202.90 Edits/config.php1/config.php" />
+        <option value="/private/var/folders/2j/2mx3v0814zqgq0sjft2ss7nh0000gn/T/fz3temp-2/headers.php" />
+        <option value="/private/var/folders/2j/2mx3v0814zqgq0sjft2ss7nh0000gn/T/fz3temp-2/artists.php" />
+        <option value="$USER_HOME$/Library/Application Support/Yummy FTP/Remote Edits/106.12.202.90 Edits/artists.php1/artists.php" />
+        <option value="$USER_HOME$/Library/Application Support/Yummy FTP/Remote Edits/106.12.202.90 Edits/artists.php/artists.php" />
+        <option value="$USER_HOME$/Library/Application Support/Yummy FTP/Remote Edits/106.12.202.90 Edits/artists.php2/artists.php" />
+        <option value="$USER_HOME$/Library/Application Support/Yummy FTP/Remote Edits/106.12.202.90 Edits/welcome.php3/welcome.php" />
+        <option value="/private/var/folders/2j/2mx3v0814zqgq0sjft2ss7nh0000gn/T/fz3temp-2/welcome 2.php" />
+        <option value="$USER_HOME$/Library/Application Support/Yummy FTP/Remote Edits/106.12.202.90 Edits/welcome.php1/welcome.php" />
+        <option value="$USER_HOME$/Library/Application Support/Yummy FTP/Remote Edits/106.12.202.90 Edits/header.php/header.php" />
+        <option value="/private/var/folders/2j/2mx3v0814zqgq0sjft2ss7nh0000gn/T/fz3temp-2/header.php" />
+        <option value="/private/var/folders/2j/2mx3v0814zqgq0sjft2ss7nh0000gn/T/fz3temp-2/movies 3.php" />
+        <option value="$USER_HOME$/Library/Application Support/Yummy FTP/Remote Edits/106.12.202.90 Edits/welcome.php2/welcome.php" />
+        <option value="/private/var/folders/2j/2mx3v0814zqgq0sjft2ss7nh0000gn/T/fz3temp-2/contact 2.php" />
+        <option value="/private/var/folders/2j/2mx3v0814zqgq0sjft2ss7nh0000gn/T/fz3temp-2/contact.php" />
+        <option value="/private/var/folders/2j/2mx3v0814zqgq0sjft2ss7nh0000gn/T/fz3temp-2/contact 3.php" />
+        <option value="$PROJECT_DIR$/app/Http/Requests/Api/ImageRequest.php" />
+        <option value="/private/var/folders/2j/2mx3v0814zqgq0sjft2ss7nh0000gn/T/fz3temp-2/artists 2.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Api/ImagesController.php" />
+        <option value="$PROJECT_DIR$/app/Transformers/ImageTransformer.php" />
+        <option value="$PROJECT_DIR$/app/Http/Requests/Api/UserRequest.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Api/UsersController.php" />
+        <option value="$PROJECT_DIR$/routes/api.php" />
       </list>
     </option>
   </component>
@@ -282,11 +287,12 @@
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php56" />
       <path value="$PROJECT_DIR$/vendor/tymon/jwt-auth" />
       <path value="$PROJECT_DIR$/vendor/namshi/jose" />
+      <path value="$PROJECT_DIR$/vendor/liyu/dingo-serializer-switch" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1260" />
+    <option name="width" value="1271" />
     <option name="height" value="1417" />
   </component>
   <component name="ProjectView">
@@ -294,6 +300,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -310,13 +317,59 @@
               <item name="larabbs" type="b2602c69:ProjectViewProjectNode" />
               <item name="larabbs" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="larabbs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="larabbs" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="larabbs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="larabbs" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="Api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="larabbs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="larabbs" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Requests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="larabbs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="larabbs" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Requests" type="462c0819:PsiDirectoryNode" />
+              <item name="Api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="larabbs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="larabbs" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="larabbs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="larabbs" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="Transformers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="larabbs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="larabbs" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -383,12 +436,14 @@
       <workItem from="1552547548177" duration="28632000" />
       <workItem from="1552871863108" duration="601000" />
       <workItem from="1552877940024" duration="3994000" />
-      <workItem from="1552889887297" duration="39344000" />
+      <workItem from="1552889887297" duration="62282000" />
+      <workItem from="1553241995114" duration="6706000" />
+      <workItem from="1553476418448" duration="12317000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="228913000" />
+    <option name="totallyTimeSpent" value="270874000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -400,12 +455,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1260" height="1417" extended-state="0" />
+    <frame x="0" y="23" width="1271" height="1417" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="npm" order="1" sideWeight="0.50139666" side_tool="true" weight="0.29709545" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49860334" visible="true" weight="0.21334432" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49860334" visible="true" weight="0.27510205" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50124484" side_tool="true" weight="0.22509506" />
@@ -418,7 +473,7 @@
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" weight="0.32927758" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4987552" visible="true" weight="0.2174905" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4987552" weight="0.2174905" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
@@ -436,257 +491,16 @@
           <line>2</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file:///private/var/folders/2j/2mx3v0814zqgq0sjft2ss7nh0000gn/T/fz3temp-2/artists.php</url>
-          <line>27</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///private/var/folders/2j/2mx3v0814zqgq0sjft2ss7nh0000gn/T/fz3temp-2/artists 2.php">
+    <entry file="file:///private/var/folders/2j/2mx3v0814zqgq0sjft2ss7nh0000gn/T/fz3temp-2/footer.php" />
+    <entry file="file:///private/var/folders/2j/2mx3v0814zqgq0sjft2ss7nh0000gn/T/fz3temp-2/footers 2.php" />
+    <entry file="file://$USER_HOME$/Downloads/huayu 3/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1803">
-          <caret line="41" column="41" lean-forward="true" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///private/var/folders/2j/2mx3v0814zqgq0sjft2ss7nh0000gn/T/fz3temp-2/hot_spots.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="903">
-          <caret line="43" column="67" selection-start-line="43" selection-start-column="67" selection-end-line="43" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/VerificationCodesController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1063">
-          <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
-          <folding>
-            <element signature="e#44#94#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/CaptchasController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#44#85#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Requests/Api/CaptchaRequest.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Requests/Api/UserRequest.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Requests/Api/VerificationCodeRequest.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Requests/UserRequest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-41" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Requests/TopicRequest.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Requests/Request.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Requests/ReplyRequest.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-161" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1505" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Jobs/TranslateSlug.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Listeners/EmailVerified.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Notifications/TopicReplied.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-833" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Observers/LinksObserver.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Policies/Policy.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/app.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Requests/Api/SocialAuthorizationRequest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-616" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/UsersTableSeeder.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/TopicsTableSeeder.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/factories/ReplyFactory.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/factories/LinkFactory.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/factories/TopicFactory.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/tymon/jwt-auth/src/JWT.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="243" column="23" selection-start-line="243" selection-start-column="23" selection-end-line="243" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/api.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="170" column="47" selection-start-line="170" selection-start-column="47" selection-end-line="170" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/auth.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-567">
-          <caret line="44" column="28" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/dingo/api/src/Http/Response.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1272">
-          <caret line="65" column="53" lean-forward="true" selection-start-line="65" selection-start-column="53" selection-end-line="65" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///private/var/folders/2j/2mx3v0814zqgq0sjft2ss7nh0000gn/T/fz3temp-2/info.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="69" column="36" lean-forward="true" selection-start-line="69" selection-start-column="36" selection-end-line="69" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///private/var/folders/2j/2mx3v0814zqgq0sjft2ss7nh0000gn/T/fz3temp-2/list.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1791" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/华誉传奇官网源码20181116/华誉传奇官网源码20181116/20181116/htdocs/boc/site/views/equipment.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="48" column="76" lean-forward="true" selection-start-line="48" selection-start-column="76" selection-end-line="48" selection-end-column="76" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///private/var/folders/2j/2mx3v0814zqgq0sjft2ss7nh0000gn/T/fz3temp-2/equipment.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2055">
-          <caret line="129" lean-forward="true" selection-start-line="129" selection-end-line="129" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Applications/MxSrvs/www/http_server.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file:///Applications/MxSrvs/www/www.fz.com/e/data/tmp/dt_temptext1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1032">
-          <caret line="43" column="76" lean-forward="true" selection-start-line="43" selection-start-column="76" selection-end-line="43" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/华誉传奇官网源码20181116/华誉传奇官网源码20181116/20181116/htdocs/boc/site/controllers/equipment.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/dingo/api/src/Transformer/Factory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="136" column="23" selection-start-line="136" selection-start-column="23" selection-end-line="136" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/dingo/api/src/Http/Response/Factory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="132" column="44" lean-forward="true" selection-start-line="132" selection-start-column="44" selection-end-line="132" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/factories/UserFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" selection-start-line="17" selection-end-line="26" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Console/Commands/GenerateToken.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
-          <folding>
-            <element signature="e#40#60#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/AuthorizationsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="591">
-          <caret line="102" column="5" selection-start-line="102" selection-start-column="5" selection-end-line="102" selection-end-column="5" />
-          <folding>
-            <element signature="e#44#53#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-          <folding>
-            <element signature="e#30#69#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="302">
+          <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -697,44 +511,308 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php">
+    <entry file="file://$USER_HOME$/Library/Application Support/Yummy FTP/Remote Edits/106.12.202.90 Edits/headers.php/headers.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2527">
-          <caret line="180" column="28" selection-start-line="180" selection-start-column="28" selection-end-line="180" selection-end-column="28" />
+        <state relative-caret-position="236">
+          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/dingo/api/src/Auth/Provider/JWT.php">
+    <entry file="file:///private/var/folders/2j/2mx3v0814zqgq0sjft2ss7nh0000gn/T/fz3temp-2/header 3.php" />
+    <entry file="file:///private/var/folders/2j/2mx3v0814zqgq0sjft2ss7nh0000gn/T/fz3temp-2/head.php" />
+    <entry file="file:///private/var/folders/2j/2mx3v0814zqgq0sjft2ss7nh0000gn/T/fz3temp-2/welcome 4.php" />
+    <entry file="file:///private/var/folders/2j/2mx3v0814zqgq0sjft2ss7nh0000gn/T/fz3temp-2/footer 2.php" />
+    <entry file="file:///private/var/folders/2j/2mx3v0814zqgq0sjft2ss7nh0000gn/T/fz3temp-2/headers 2.php" />
+    <entry file="file:///Applications/MxSrvs/www/seo/e/config/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        <state>
+          <folding>
+            <element signature="e#28#34#1" expanded="true" />
+            <element signature="e#35#41#1" expanded="true" />
+            <element signature="e#67#73#1" expanded="true" />
+            <element signature="e#74#80#1" expanded="true" />
+            <element signature="e#106#112#1" expanded="true" />
+            <element signature="e#113#119#1" expanded="true" />
+            <element signature="e#144#150#1" expanded="true" />
+            <element signature="e#151#157#1" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/api.php">
+    <entry file="file://$USER_HOME$/Library/Application Support/Yummy FTP/Remote Edits/106.12.202.90 Edits/index.php/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Application Support/Yummy FTP/Remote Edits/106.12.202.90 Edits/config.php1/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="32" column="52" lean-forward="true" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
+        <state relative-caret-position="675">
+          <caret line="62" column="9" lean-forward="true" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Application Support/Yummy FTP/Remote Edits/106.12.202.90 Edits/config.php/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Application Support/Yummy FTP/Remote Edits/106.12.202.90 Edits/head.php/head.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Application Support/Yummy FTP/Remote Edits/106.12.202.90 Edits/artists.php1/artists.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="85" selection-start-line="14" selection-start-column="85" selection-end-line="14" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///private/var/folders/2j/2mx3v0814zqgq0sjft2ss7nh0000gn/T/fz3temp-2/welcome.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Application Support/Yummy FTP/Remote Edits/106.12.202.90 Edits/headers.php1/headers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Application Support/Yummy FTP/Remote Edits/106.12.202.90 Edits/news.php/news.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="959">
+          <caret line="40" column="66" selection-start-line="40" selection-start-column="64" selection-end-line="40" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Application Support/Yummy FTP/Remote Edits/106.12.202.90 Edits/artists.php2/artists.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="983">
+          <caret line="41" selection-start-line="41" selection-end-line="42" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Application Support/Yummy FTP/Remote Edits/106.12.202.90 Edits/artists.php/artists.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="20" column="60" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Application Support/Yummy FTP/Remote Edits/106.12.202.90 Edits/welcome.php3/welcome.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Application Support/Yummy FTP/Remote Edits/106.12.202.90 Edits/welcome.php1/welcome.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///private/var/folders/2j/2mx3v0814zqgq0sjft2ss7nh0000gn/T/fz3temp-2/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6261" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Application Support/Yummy FTP/Remote Edits/106.12.202.90 Edits/header.php/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///private/var/folders/2j/2mx3v0814zqgq0sjft2ss7nh0000gn/T/fz3temp-2/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="888">
+          <caret line="37" column="55" lean-forward="true" selection-start-line="37" selection-start-column="55" selection-end-line="37" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///private/var/folders/2j/2mx3v0814zqgq0sjft2ss7nh0000gn/T/fz3temp-2/movies.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="21" column="49" lean-forward="true" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///private/var/folders/2j/2mx3v0814zqgq0sjft2ss7nh0000gn/T/fz3temp-2/movies 2.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///private/var/folders/2j/2mx3v0814zqgq0sjft2ss7nh0000gn/T/fz3temp-2/movies 3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1704">
+          <caret line="71" column="53" lean-forward="true" selection-start-line="71" selection-start-column="53" selection-end-line="71" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///private/var/folders/2j/2mx3v0814zqgq0sjft2ss7nh0000gn/T/fz3temp-2/headers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="97" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///private/var/folders/2j/2mx3v0814zqgq0sjft2ss7nh0000gn/T/fz3temp-2/welcome 2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2040">
+          <caret line="85" column="74" selection-start-line="85" selection-start-column="33" selection-end-line="85" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///private/var/folders/2j/2mx3v0814zqgq0sjft2ss7nh0000gn/T/fz3temp-2/movies 4.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2304">
+          <caret line="96" column="42" selection-start-line="96" selection-start-column="42" selection-end-line="96" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Application Support/Yummy FTP/Remote Edits/106.12.202.90 Edits/welcome.php2/welcome.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1106">
+          <caret line="54" column="42" selection-start-line="54" selection-start-column="42" selection-end-line="54" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Application Support/Yummy FTP/Remote Edits/106.12.202.90 Edits/welcome.php/welcome.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1207">
+          <caret line="98" column="90" selection-start-line="95" selection-start-column="36" selection-end-line="98" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Application Support/Yummy FTP/Remote Edits/106.12.202.90 Edits/welcome.php4/welcome.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="22" column="131" selection-start-line="22" selection-start-column="131" selection-end-line="22" selection-end-column="131" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///private/var/folders/2j/2mx3v0814zqgq0sjft2ss7nh0000gn/T/fz3temp-2/contact 2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///private/var/folders/2j/2mx3v0814zqgq0sjft2ss7nh0000gn/T/fz3temp-2/contact 3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-73">
+          <caret line="34" column="3" lean-forward="true" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
+          <folding>
+            <element signature="n#style#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///private/var/folders/2j/2mx3v0814zqgq0sjft2ss7nh0000gn/T/fz3temp-2/contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="632">
+          <caret line="39" column="53" lean-forward="true" selection-start-line="39" selection-start-column="53" selection-end-line="39" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Image.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///private/var/folders/2j/2mx3v0814zqgq0sjft2ss7nh0000gn/T/fz3temp-2/artists 2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="11" column="47" lean-forward="true" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///private/var/folders/2j/2mx3v0814zqgq0sjft2ss7nh0000gn/T/fz3temp-2/artists.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-133" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Requests/Api/ImageRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="42" column="58" selection-start-line="42" selection-start-column="58" selection-end-line="42" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Pluralizer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="64" column="27" selection-start-line="64" selection-start-column="27" selection-end-line="64" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Str.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="279" column="30" selection-start-line="279" selection-start-column="30" selection-end-line="279" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/helpers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="893" column="23" selection-start-line="893" selection-start-column="23" selection-end-line="893" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Transformers/ImageTransformer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding>
+            <element signature="e#36#57#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Transformers/UserTransformer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        <state relative-caret-position="48">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="26" />
           <folding>
             <element signature="e#36#56#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/ImagesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/UsersController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="13" column="62" lean-forward="true" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
+        <state relative-caret-position="1111">
+          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
           <folding>
             <element signature="e#44#64#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Requests/Api/UserRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="44" column="2" lean-forward="true" selection-start-line="44" selection-start-column="2" selection-end-line="44" selection-end-column="2" />
         </state>
       </provider>
     </entry>
