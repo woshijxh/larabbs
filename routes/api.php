@@ -59,6 +59,14 @@ $api->version('v1', [
             $api->get('categories', 'CategoriesController@index')
                 ->name('api.categories.index');
 
+            // 话题列表
+            $api->get('topics', 'TopicsController@index')
+                ->name('api.topics.index');
+
+            // 用户话题
+            $api->get('users/{user}/topics', 'TopicsController@userIndex')
+                ->name('api.users.topics.index');
+
         // 需要 token 验证的接口
         $api->group(['middleware' => 'api.auth'], function($api) {
             // 当前登录用户信息
@@ -84,6 +92,7 @@ $api->version('v1', [
             // 删除话题
             $api->delete('topics/{topic}', 'TopicsController@destroy')
                 ->name('api.topics.destroy');
+
         });
     });
 });
