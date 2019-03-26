@@ -7,6 +7,7 @@ use App\Models\User;
 use Illuminate\Http\Request;
 use App\Transformers\TopicTransformer;
 use App\Http\Requests\Api\TopicRequest;
+use function MongoDB\BSON\toPHP;
 
 class TopicsController extends Controller
 {
@@ -80,4 +81,13 @@ class TopicsController extends Controller
 
         return $this->response->paginator($topics, new TopicTransformer());
     }
+
+    /**
+     * 话题详情
+     */
+    public function show(Topic $topic)
+    {
+        return $this->response->item($topic, new TopicTransformer());
+    }
+
 }
