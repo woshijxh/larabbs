@@ -62,11 +62,12 @@ class UsersController extends Controller
     }
 
     /**
-     * @param User $user
      * 获取活跃用户
      */
     public function activedIndex(User $user)
     {
         return $this->response->collection($user->getActiveUsers(), new UserTransformer());
     }
+
+
 }
