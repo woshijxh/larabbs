@@ -125,6 +125,7 @@
       <path value="$PROJECT_DIR$/vendor/liyu/dingo-serializer-switch" />
       <path value="$PROJECT_DIR$/vendor/overtrue/laravel-query-logger" />
       <path value="$PROJECT_DIR$/vendor/jpush/jpush" />
+      <path value="$PROJECT_DIR$/vendor/symfony/psr-http-message-bridge" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.1" />
