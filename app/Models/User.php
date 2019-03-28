@@ -7,6 +7,7 @@ use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Auth;
 use Spatie\Permission\Traits\HasRoles;
+use Laravel\Passport\HasApiTokens;
 
 class User extends Authenticatable implements JWTSubject
 {
@@ -15,6 +16,8 @@ class User extends Authenticatable implements JWTSubject
     use Traits\ActiveUserHelper;
 
     use HasRoles;
+
+    use HasApiTokens;
 
     // use MustVerifyEmailTrait;
 
@@ -115,5 +118,14 @@ class User extends Authenticatable implements JWTSubject
         }
 
         $this->attributes['avatar'] = $path;
+    }
+
+    public function findForPassport($username)
+    {
+        filter_var($username, FILTER_VALIDATE_EMAIL) ?
+            $credentials['email'] = $username :
+            $credentials['phone'] = $username;
+
+        return self::where($credentials)->first();
     }
 }
