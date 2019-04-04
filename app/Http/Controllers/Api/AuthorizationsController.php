@@ -3,10 +3,11 @@
 namespace App\Http\Controllers\Api;
 
 use Auth;
+use App\Models\User;
+use Illuminate\Http\Request;
+use App\Http\Requests\Api\WeappAuthorizationRequest;
 use App\Http\Requests\Api\AuthorizationRequest;
 use App\Http\Requests\Api\SocialAuthorizationRequest;
-use Illuminate\Http\Request;
-use App\Models\User;
 
 use Zend\Diactoros\Response as Psr7Response;
 use Psr\Http\Message\ServerRequestInterface;
@@ -132,7 +133,62 @@ class AuthorizationsController extends Controller
             return $this->response->errorUnauthorized('The token is invalid.');
         }
     }
+
+    public function weappStore(WeappAuthorizationRequest $request)
+    {
+        $code = $request->code;
+
+        //  根据 code 获取微信 openid 和 session_key
+        $miniProgram = \EasyWeChat::miniProgram();
+        $data = $miniProgram->auth->session($code);
+
+        // 如果结果错误，说明 code 已过期或不正确，返回 401 错误
+        if (isset($data['errcode'])) {
+            return $this->response->errorUnauthorized('code 不正确');
+        }
+
+        // 找到 openid 对应的用户
+        $user = User::where('weapp_openid', $data['openid'])->first();
+
+        $attributes['weixin_session_key'] = $data['session_key'];
+
+        // 未找到对应用户则需要提交用户名密码进行用户绑定
+        if (!$user) {
+            // 如果未提交用户名密码，403 错误提示
+            if (!$request->username) {
+                return $this->response->errorForbidden('用户不存在');
+            }
+
+            $username = $request->username;
+
+            // 用户名可是邮箱或电话
+            filter_var($username, FILTER_VALIDATE_EMAIL) ?
+                $credentials['email'] = $username :
+                $credentials['phone'] = $username;
+
+            $credentials['password'] = $request->password;
+
+            // 验证用户名和密码是否正确
+            if (!Auth::guard('api')->once($credentials)) {
+                return $this->response->errorUnauthorized('用户或密码错误');
+            }
+
+            // 获取对应的用户
+            $user = Auth::guard('api')->user();
+            $attributes['weapp_openid'] = $data['openid'];
+        }
+
+        // 更新用户数据
+        $user->update($attributes);
+
+        // 为对应用户创建JWT
+        $token = \Auth::guard('api')->fromUser($user);
+
+        return $this->respondWithToken($token)->setStatusCode(201);
+    }
 }
+
+
 
 
  // https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx788d3b04a4d76176&redirect_uri=http://larabbs.test&response_type=code&scope=snsapi_userinfo&state=STATE#wechat_redirect
