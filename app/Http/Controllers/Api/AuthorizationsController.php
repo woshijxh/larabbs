@@ -118,21 +118,21 @@ class AuthorizationsController extends Controller
         }
     }
 
-//    public function destroy()
-//    {
-//        Auth::guard('api')->logout();
-//        return $this->response->noContent();
-//    }
-
     public function destroy()
     {
-        if (!empty($this->user())) {
-            $this->user()->token()->revoke();
-            return $this->response->noContent();
-        } else {
-            return $this->response->errorUnauthorized('The token is invalid.');
-        }
+        Auth::guard('api')->logout();
+        return $this->response->noContent();
     }
+
+//    public function destroy()
+//    {
+//        if (!empty($this->user())) {
+//            $this->user()->token()->revoke();
+//            return $this->response->noContent();
+//        } else {
+//            return $this->response->errorUnauthorized('The token is invalid.');
+//        }
+//    }
 
     public function weappStore(WeappAuthorizationRequest $request)
     {
