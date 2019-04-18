@@ -103,20 +103,20 @@ class AuthorizationsController extends Controller
         ]);
     }
 
-//    public function update()
-//    {
-//        $token = Auth::guard('api')->refresh();
-//        return $this->respondWithToken($token);
-//    }
-
-    public function update(AuthorizationServer $server, ServerRequestInterface $serverRequest)
+    public function update()
     {
-        try {
-            return $server->respondToAccessTokenRequest($serverRequest, new Psr7Response);
-        } catch(OAuthServerException $e) {
-            return $this->response->errorUnauthorized($e->getMessage());
-        }
+        $token = Auth::guard('api')->refresh();
+        return $this->respondWithToken($token);
     }
+
+//    public function update(AuthorizationServer $server, ServerRequestInterface $serverRequest)
+//    {
+//        try {
+//            return $server->respondToAccessTokenRequest($serverRequest, new Psr7Response);
+//        } catch(OAuthServerException $e) {
+//            return $this->response->errorUnauthorized($e->getMessage());
+//        }
+//    }
 
     public function destroy()
     {
